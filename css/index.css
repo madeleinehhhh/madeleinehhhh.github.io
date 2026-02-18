@@ -1,21 +1,28 @@
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family: helvetica, sans-serif;
+	--font-family-monospace: monospace;
 }
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+  --clr-secondary: #406709;
+  --clr-secondary-alt: #618616;
+  --clr-secondary-muted: #6a7246;
+  --clr-secondary-muted-alt: #8ea75d;
+  --clr-accent: #bd4500;
+  --clr-accent-alt: #ff6924;
 
-	--background-color: #fff;
+	--color-gray-20: oklch(97.312% 0.00428 198.511);
+	--color-gray-50: oklch(88.107% 0.00687 146.197);
+	--color-gray-90: oklch(26.554% 0.05122 73.939);
+
+	--background-color: var(--color-gray-20);
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link: var(--clr-secondary);
+	--text-color-link-active: var(--clr-accent);
+	--text-color-link-visited: var(--clr-accent);
 
 	--syntax-tab-size: 2;
 }
@@ -27,37 +34,33 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: var(--clr-accent-alt);
+		--text-color-link-active: var(--clr-secondary);
+		--text-color-link-visited: var(--clr-secondary-muted-alt);
 
-		--background-color: #15202b;
+		--background-color: #14181d;
 	}
 }
 
 
 /* Global stylesheet */
-* {
-	box-sizing: border-box;
-}
-
 @view-transition {
 	navigation: auto;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
-html {
-	overflow-y: scroll;
-}
+
 body {
-	max-width: 40em;
+	display: grid;
+	gap: 1rem;
+	width: min(90vw, 40rem);
+	margin-inline:auto;
+	padding-inline: 1rem;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -92,16 +95,6 @@ iframe {
 	aspect-ratio: 16/9;
 }
 
-p:last-child {
-	margin-bottom: 0;
-}
-p {
-	line-height: 1.5;
-}
-
-li {
-	line-height: 1.5;
-}
 
 a[href] {
 	color: var(--text-color-link);
@@ -116,14 +109,15 @@ a[href]:active {
 
 main,
 footer {
-	padding: 1rem;
-}
-main :first-child {
-	margin-top: 0;
+	padding-block: 1rem;
 }
 
-header {
-	border-bottom: 1px dashed var(--color-gray-20);
+main {
+	border-color: var(--clr-secondary-muted);
+	border-width: 1px;
+	border-style: dotted;
+	border-left-width: 0;
+	border-right-width: 0;
 }
 
 #skip-link {
