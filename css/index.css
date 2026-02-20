@@ -33,8 +33,8 @@
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: var(--clr-greenbright);
-	--text-color-link-active: var(--clr-accent);
-		--text-color-link-visited: oklch(from var(var(--clr-greenbright) cacl(l * 1.2) c h);
+		--text-color-link-active: oklch(from var(--text-color-link) calc(l * 1.1) c h);;
+		--text-color-link-visited: oklch(from var(--text-color-link) calc(l * 0.8) c h);
 
 	--syntax-tab-size: 2;
 }
@@ -47,8 +47,6 @@
 
 		/* --text-color is assigned to --color-gray-_ above */
 		--text-color-link: var(--clr-greenlighter);
-		--text-color-link-active: var(--clr-brightorange);
-		--text-color-link-visited: oklch(from var(var(--clr-greenlighter) cacl(l * 1.2) c h);
 
 		--background-color: #14181d;
 	}
@@ -162,4 +160,15 @@ body > header {
 
 h2.postlist-title a {
 	text-decoration: none;
+}
+
+
+.post-metadata,
+.links-nextprev {
+	list-style: none;
+	font-size:0.9em;
+}
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
 }
