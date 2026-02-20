@@ -18,14 +18,26 @@
 
 /* Theme colors */
 :root {
-  --clr-secondary: #406709;
-  --clr-secondary-alt: #618616;
-  --clr-secondary-muted: #6a7246;
-  --clr-secondary-muted-alt: #8ea75d;
-  --clr-accent: #bd4500;
-  --clr-accent-alt: #ff6924;
+	--clr-gold: oklch(78.266% 0.14194 89.569);
+	--clr-darkteal: #182024;
+	--clr-teal: #4E8B8C;
+  --clr-greenbright: #618616;
+	--clr-greenlighter: #8EA75D;
+	--clr-palefoam: oklch(93.911% 0.02612 147.337);
+	--clr-mediumblue: #0D6FBA;
+	--clr-brightblue: #0099FF;
+	--clr-lightblue: #77B0CE;
+	--clr-greige: #C4C4C4;
+	--clr-maroonish: #9E3F4E;
+	--clr-paledpeach: #FFC9B9;
+	--clr-brightorange: #FF6924;
+	--clr-salmon: #D7765B;
+	--clr-beige: #DCB39E;
 
-	--color-gray-20: oklch(97.312% 0.00428 198.511);
+  --clr-secondary: #406709;
+  --clr-accent: #bd4500;
+
+	--color-gray-20: var(var(--clr-palefoam));
 	--color-gray-50: oklch(88.107% 0.00687 146.197);
 	--color-gray-90: oklch(26.554% 0.05122 73.939);
 
@@ -46,35 +58,20 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: var(--clr-accent-alt);
+		--text-color-link: var(--clr-accent);
 		--text-color-link-active: var(--clr-secondary);
-		--text-color-link-visited: var(--clr-secondary-muted-alt);
+		--text-color-link-visited: var(--clr-secondary);
 
 		--background-color: #14181d;
 	}
 }
 
-
-/* Global stylesheet */
+/* View Transitions */
 @view-transition {
 	navigation: auto;
 }
 
-html,
-body {
-	font-family: var(--font-family);
-	color: var(--text-color);
-	background-color: var(--background-color);
-}
-
-body {
-	display: grid;
-	gap: 1rem;
-	width: min(90vw, 40rem);
-	margin-inline:auto;
-	padding-inline: 1rem;
-}
-
+/* Visually Hidden */
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden:not(:focus):not(:active) {
 	clip: rect(0 0 0 0);
@@ -107,7 +104,7 @@ iframe {
 	aspect-ratio: 16/9;
 }
 
-
+/* links */
 a[href] {
 	color: var(--text-color-link);
 }
@@ -119,19 +116,7 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main,
-footer {
-	padding-block: 1rem;
-}
-
-main {
-	border-color: var(--clr-secondary-muted);
-	border-width: 1px;
-	border-style: dotted;
-	border-left-width: 0;
-	border-right-width: 0;
-}
-
+/* skip link */
 #skip-link {
 	text-decoration: none;
 	background: var(--background-color);
@@ -150,156 +135,45 @@ main {
 	z-index: 999;
 }
 
-.links-nextprev {
+
+/* specific styles */
+
+body {
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+body > header,
+body > main,
+body > footer {
+	max-width: 40rem;
+	margin-inline: auto;
+}
+
+body > header {
+	/* outline: 3px dotted yellow; */
 	display: flex;
-	justify-content: space-between;
-	gap: .5em 1em;
-	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
-}
-.links-nextprev > * {
-	flex-grow: 1;
-}
-.links-nextprev-next {
-	text-align: right;
-}
-
-table {
-	margin: 1em 0;
-}
-table td,
-table th {
-	padding-right: 1em;
-}
-
-pre,
-code {
-	font-family: var(--font-family-monospace);
-}
-pre:not([class*="language-"]) {
-	margin: .5em 0;
-	line-height: 1.375; /* 22px /16 */
-	-moz-tab-size: var(--syntax-tab-size);
-	-o-tab-size: var(--syntax-tab-size);
-	tab-size: var(--syntax-tab-size);
-	-webkit-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	overflow-x: auto;
-}
-code {
-	word-break: break-all;
-}
-
-/* Header */
-header {
-	display: flex;
-	gap: 1em;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1em;
-}
-.home-link {
-	flex-grow: 1;
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
-}
-.home-link:link:not(:hover) {
-	text-decoration: none;
+
+	.nav {
+		list-style: none;
+		display: flex;
+		gap: 1em;
+	}
 }
 
-/* Nav */
-.nav {
-	display: flex;
-	gap: .5em 1em;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-.nav-item {
-	display: inline-block;
-}
-.nav-item a[href]:not(:hover) {
-	text-decoration: none;
-}
-.nav a[href][aria-current="page"] {
-	text-decoration: underline;
+/* .tag-quote h2.postlist-title {
+	font-size: 1em;
 }
 
-/* Posts list */
-.postlist {
-	counter-reset: start-from var(--postlist-index);
-	list-style: none;
-	padding: 0;
-	padding-left: 1.5rem;
-}
-.postlist-item {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
-	margin-bottom: 1em;
-}
-.postlist-item:before {
-	display: inline-block;
-	pointer-events: none;
-	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
-	text-align: right;
-	margin-left: -1.5rem;
-}
-.postlist-date,
-.postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
-}
 .postlist-date {
-	word-spacing: -0.5px;
-}
-.postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
-	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
-	text-underline-position: from-font;
-	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
-}
-.postlist-item-active .postlist-link {
-	font-weight: bold;
-}
+	font-size: 0.9em;
+} */
 
-/* Tags */
-.post-tag {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: capitalize;
-	font-style: italic;
-}
-.postlist-item > .post-tag {
-	align-self: center;
-}
-
-/* Tags list */
-.post-metadata {
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: .5em;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.post-metadata time {
-	margin-right: 1em;
+h2.postlist-title a {
+	text-decoration: none;
 }</style>
 		
 	</head>
@@ -326,12 +200,28 @@ header {
 
 
 <ol reversed="" class="postlist" style="--postlist-index: 2">
-	<li class="postlist-item">
-		<a href="/blog/2023-04-03--stakhanovite/" class="postlist-link">The Stakhanovite movement</a>
-		<time class="postlist-date" datetime="2023-04-03">April 2023</time>
-	</li>
-</ol>
+<li class="postlist-item">
+  <article class="tag-posts tag-wikipedia tag-workers ">
+    <header>
+      <h2 class="postlist-title" id="the-stakhanovite-movement">
+        <a href="/blog/2023-04-03--stakhanovite/" class="postlist-link">The Stakhanovite movement
+        </a>
+      </h2>
+      <time class="postlist-date" datetime="2023-04-03">
+        April 2023
+      </time>
+    </header>
 
+    <div class="postlist-content">
+      <blockquote>
+<p>The Stakhanovite movement (стаха́новское движе́ние) was a mass cultural movement of workers which originated in the Soviet Union, and encouraged socialist emulation and rationalization of workplace processes. The Stakhanovites (стаха́новцы) modeled themselves after Alexei Stakhanov and took pride in their ability to produce more than was required by working harder and more efficiently, thus contributing to the common good and strengthening the socialist state. The movement began in the coal industry but later spread to many other industries in the Soviet Union. Initially popular, it eventually encountered resistance as the increased productivity led to increased demands on workers.</p>
+<p>—<a href="https://en.wikipedia.org/wiki/Stakhanovite_movement">Wiktionary</a></p>
+</blockquote>
+
+    </div>
+  </article>
+</li>
+</ol>
 
 <p>See <a href="/tags/">all tags</a>.</p>
 
@@ -345,7 +235,7 @@ header {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/workers/` was built on 2026-02-18T23:11:27.927Z -->
+		<!-- This page `/tags/workers/` was built on 2026-02-20T19:55:35.662Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
