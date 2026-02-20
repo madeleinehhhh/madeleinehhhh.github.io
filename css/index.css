@@ -132,6 +132,12 @@ body {
 	background-color: var(--background-color);
 }
 
+body > header,
+body > main,
+body > footer {
+	max-width: 40rem;
+	margin-inline: auto;
+}
 
 body > header {
 	/* outline: 3px dotted yellow; */
