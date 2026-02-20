@@ -34,7 +34,7 @@
 	--clr-salmon: #D7765B;
 	--clr-beige: #DCB39E;
 
-  --clr-secondary: #406709;
+  --clr-secondary: var(--clr-greenbright);
   --clr-accent: #bd4500;
 
 	--color-gray-20: var(var(--clr-palefoam));
@@ -44,9 +44,9 @@
 	--background-color: var(--color-gray-20);
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: var(--clr-secondary);
+	--text-color-link: var(--clr-greenbright);
 	--text-color-link-active: var(--clr-accent);
-	--text-color-link-visited: var(--clr-accent);
+		--text-color-link-visited: oklch(from var(var(--clr-greenbright) cacl(l * 1.2) c h);
 
 	--syntax-tab-size: 2;
 }
@@ -58,9 +58,9 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: var(--clr-accent);
-		--text-color-link-active: var(--clr-secondary);
-		--text-color-link-visited: var(--clr-secondary);
+		--text-color-link: var(--clr-greenlighter);
+		--text-color-link-active: var(--clr-brightorange);
+		--text-color-link-visited: oklch(from var(var(--clr-greenlighter) cacl(l * 1.2) c h);
 
 		--background-color: #14181d;
 	}
@@ -232,7 +232,7 @@ h2.postlist-title a {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/repost/` was built on 2026-02-20T19:55:35.666Z -->
+		<!-- This page `/tags/repost/` was built on 2026-02-20T19:58:37.244Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
