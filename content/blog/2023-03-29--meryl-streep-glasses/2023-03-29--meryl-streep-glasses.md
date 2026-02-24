@@ -1,5 +1,5 @@
 ---
-title: adulthood might not have to be a drag
+title: Meryl Streep weild glasses
 description: The dramatic removal of eyeglasses is a cinematic cliché. On Streep, it’s a revelation.
 date: 2023-03-29
 tags: ["nyt", "link"]
