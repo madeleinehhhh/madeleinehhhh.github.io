@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;austin kleon&#39;</title>
-		<meta name="description" content="re-joining the indieweb">
+		<title>adulthood might not have to be a drag</title>
+		<meta name="description" content="For a kid watching TV in the 1980s and &#39;90s, seeing grown-ups get weird meant that adulthood might not have to be a drag.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Madeleine.Cool">
 		
 		
@@ -183,6 +183,174 @@ h2.postlist-title a {
 .links-nextprev {
 	display: flex;
 	justify-content: space-between;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 	</head>
@@ -205,35 +373,24 @@ h2.postlist-title a {
 		<main id="main">
 			<heading-anchors>
 				
-<h1 id="tagged-austin-kleon">Tagged “austin kleon”</h1>
 
 
-<ol reversed="" class="postlist" style="--postlist-index: 2">
-<li class="postlist-item">
-  <article class="tag-posts tag-austin kleon tag-ai ">
-    <header>
-      <h2 class="postlist-title" id="ai-as-intern">
-        <a href="/blog/2023-03-29--kleon-ai-assistant/" class="postlist-link">AI as intern
-        </a>
-      </h2>
-      <time class="postlist-date" datetime="2023-03-29">
-        March 2023
-      </time>
-    </header>
+<h1 id="adulthood-might-not-have-to-be-a-drag">adulthood might not have to be a drag</h1>
 
-    <div class="postlist-content">
-      <blockquote>
-<p>He told me that AI right now is like having a little assistant to boss around and make you some stuff so you can say, 'Most of this is garbage, but I can use this part, and you’ve given me something to work with or against.'</p>
-<p>—Austin Kleon, <a href="https://austinkleon.com/2023/03/22/ai-as-intern/">AI as intern</a></p>
+<ul class="post-metadata">
+	<li><time datetime="2023-03-29">29 March 2023</time></li>
+	<li><a href="/tags/nyt/" class="post-tag">nyt</a>, </li>
+	<li><a href="/tags/link/" class="post-tag">link</a></li>
+</ul>
+
+<picture><source type="image/avif" srcset="/blog/2023-03-29--adults-letting-loose/EXDCRcFY4u-1050.avif 1050w"><source type="image/webp" srcset="/blog/2023-03-29--adults-letting-loose/EXDCRcFY4u-1050.webp 1050w"><img loading="lazy" decoding="async" src="/blog/2023-03-29--adults-letting-loose/EXDCRcFY4u-1050.jpeg" alt="" width="1050" height="549"></picture>
+<blockquote>
+<p>For a kid watching TV in the 1980s and '90s, seeing grown-ups get weird meant that adulthood might not have to be a drag.</p>
+<p>—NYT <a href="https://www.nytimes.com/interactive/2023/03/23/arts/letting-loose-dancing-tv.html">The Joy of Letting Loose</a></p>
 </blockquote>
 
-    </div>
-  </article>
-</li>
-</ol>
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
+<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/2023-03-29--kleon-ai-assistant/">AI as intern</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -244,7 +401,7 @@ h2.postlist-title a {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/austin-kleon/` was built on 2026-02-24T19:08:18.337Z -->
+		<!-- This page `/blog/2023-03-29--adults-letting-loose/` was built on 2026-02-24T19:08:18.339Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
