@@ -11,6 +11,19 @@
     <name>Your Name</name>
   </author>
   <entry>
+    <title>the more your typography responds to the viewport, the less it will respond to user preferences</title>
+    <link href="https://example.com/blog/2026-02-24--typography-viewport-vs-user/" />
+    <updated>2026-01-26T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-02-24--typography-viewport-vs-user/</id>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;One action (zooming) changes the size of a pixel, while the other (resizing) changes the size of the browser itself – but both change the number of pixels across the width of the browser. As the window gets smaller, or the pixel gets larger – there are fewer pixels in the viewport.&lt;/p&gt;
+&lt;p&gt;That disconnect makes responsive typography unreliable. If your text is set to resize based only on a viewport or container, then the user zoom will have no effect! Similarly, neither 1vw nor 100vw accounts for the user default font-size.&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://web.dev/articles/baseline-in-action-fluid-type?hl=en&quot;&gt;Stephan Schwab&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This &lt;a href=&quot;https://www.youtube.com/watch?v=B-r6wembUxI&quot;&gt;whole video from Oddbird&lt;/a&gt; was worth watching to see Miriam work through the reasoning. In addition to giving me much to think about in terms of writing good css for website visitors to have good experiences, I&#39;m left wondering if it is possible for AI to have this sort of wondering. Can an LLM ask &amp;quot;hmm, I wonder how this approach to font sizing actually impacts with user preferences and zoom?&amp;quot;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Software development is thinking made tangible.</title>
     <link href="https://example.com/blog/2026-01-26--development-friction/" />
     <updated>2026-01-26T00:00:00Z</updated>
@@ -38,6 +51,20 @@
     <updated>2023-08-10T00:00:00Z</updated>
     <id>https://example.com/blog/2023-08-10--collier-explains-music/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eRkgK4jfi6M&quot;&gt;Watch on YouTube&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Revolution, maybe</title>
+    <link href="https://example.com/blog/2026-02-24--revolution-maybe/" />
+    <updated>2023-04-03T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-02-24--revolution-maybe/</id>
+    <content type="html">&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2026-02-24--revolution-maybe/pwH9LFnE0M-1244.avif 1244w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2026-02-24--revolution-maybe/pwH9LFnE0M-1244.webp 1244w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2026-02-24--revolution-maybe/pwH9LFnE0M-1244.png&quot; alt=&quot;&quot; width=&quot;1244&quot; height=&quot;1622&quot;&gt;&lt;/picture&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But it’s very striking that at the end of that section I had with her [Laurie Tisch], she said: At the end of the day, it’s hard to convince someone like me to give up power.&lt;/p&gt;
+&lt;p&gt;So I said: Then how do you change this kind of thing? How could this kind of thing ever change?&lt;/p&gt;
+&lt;p&gt;And her words were: “Revolution, maybe.”&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://www.nytimes.com/2026/02/13/opinion/ezra-klein-podcast-anand-giridharadas.html&quot;&gt;Anand Giridharadas on the Ezra Klein Show&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
   </entry>
   <entry>
