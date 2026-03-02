@@ -1,5 +1,7 @@
 # AI & Machine Learning: A Self-Directed Syllabus for the Analytically Minded Developer
 
+Created by Claude.
+
 *Tailored for backgrounds in analytic philosophy and web development*
 
 This syllabus is organized into five modules that build on each other, moving from intellectual history and conceptual foundations through to hands-on development and frontier research questions. Each module can take 2–6 weeks depending on depth of engagement. Resources are curated for someone who thinks carefully about concepts and can read technical material, but who is approaching ML from the outside.
