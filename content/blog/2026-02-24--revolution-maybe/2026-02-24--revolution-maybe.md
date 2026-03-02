@@ -2,7 +2,7 @@
 title: Revolution, maybe
 description: >
  “So I said: Then how do you change this kind of thing? How could this kind of thing ever change? And her words were: 'Revolution, maybe.'”
-date: 2023-04-03
+date: 2026-02-24
 tags: ["wikipedia", "etymology"]
 ---
 
