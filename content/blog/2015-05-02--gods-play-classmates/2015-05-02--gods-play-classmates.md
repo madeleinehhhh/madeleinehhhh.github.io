@@ -1,8 +1,8 @@
 ---
-title: William Shatner on his voyage into space
-description: "An excerpt from Boldly Go: Reflections on a Life of Awe and Wonder by William Shatner on his voyage into space on Blue Origin in 2021."
-date: 2022-11-25
-tags: ["quote", "link", "tumblr reblog", "the universe"]
+title: The gods play in the scenic haven of a quick break with friends.
+description:
+date: 2015-05-02
+tags: ["quote", "link", "tumblr reblog"]
 ---
 
 Reblogged from [Humans of Seoul](https://www.tumblr.com/humans-of-seoul/117892522527)
