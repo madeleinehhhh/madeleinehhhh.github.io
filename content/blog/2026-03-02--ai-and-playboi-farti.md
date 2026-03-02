@@ -1,7 +1,7 @@
 ---
 title: What is homework for in an age of AI?
 description: Podcast - Playboi Farti and his AI Homework Machine
-date: 2026-03-02
+date: 22022-11-25
 tags: ["ai", "podcast"]
 ---
 
