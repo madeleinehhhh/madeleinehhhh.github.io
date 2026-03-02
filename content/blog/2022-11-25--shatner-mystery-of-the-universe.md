@@ -1,7 +1,7 @@
 ---
 title: William Shatner on his voyage into space
 description: An excerpt from 90-year old William Shatner’s new book, “Boldly Go: Reflections on a Life of Awe and Wonder.” The “Star Trek” actor reflects on his voyage into space on Jeff Bezos’ Blue Origin space shuttle on Oct. 13, 2021.
-date: 22022-11-25
+date: 2022-11-25
 tags: ["quote", "link", "tumblr reblog", "the universe"]
 ---
 
