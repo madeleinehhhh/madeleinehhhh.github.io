@@ -6,7 +6,7 @@ date: 2026-02-24
 tags: ["wikipedia", "etymology"]
 ---
 
-<img src="./2026-02-24--revolution-maybe-screenshot.png" alt="">
+<img src="/2026-02-24--revolution-maybe-screenshot.png" alt="">
 
 
 > But it’s very striking that at the end of that section I had with her [Laurie Tisch], she said: At the end of the day, it’s hard to convince someone like me to give up power.
