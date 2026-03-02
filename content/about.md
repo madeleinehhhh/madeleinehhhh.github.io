@@ -6,6 +6,8 @@ const eleventyNavigation = {
 ---
 # About
 
-I am a front-end web developer. In my day job, I'm at a [university](https://www.baylor.edu), where I work both with content managers on web strategy and directly within Drupal to develop a rich and robust web experience for content managers and visitors alike. On the side, I love getting to work on projects large and small.
+My name is Madeleine Herritage. I am a front-end web developer. In my day job, I'm at a [university](https://www.baylor.edu), where I work both with content managers on web strategy and directly within Drupal to develop a rich and robust web experience for content managers and visitors alike. On the side, I love getting to work on projects large and small.
 
-Find out more about me at [madeleine.dev](https://madeleine.dev).
+This, [madeleine.cool](https://madeleine.cool), is my blog.
+
+Find out more about me at professionally [madeleine.dev](https://madeleine.dev).
