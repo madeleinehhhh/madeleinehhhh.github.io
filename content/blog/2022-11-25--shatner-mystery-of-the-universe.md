@@ -5,7 +5,7 @@ date: 2022-11-25
 tags: ["quote", "link", "tumblr reblog", "the universe"]
 ---
 
-Reblogged from [Tumblr](https://www.tumblr.com/dasenergi/697880492449611776?source=share)
+Reblogged from [Tumblr](https://www.tumblr.com/dasenergi/697880492449611776)
 
 > I love the mystery of the universe. I love all the questions that have come to us over thousands of years of exploration and hypotheses. Stars exploding years ago, their light traveling to us years later; black holes absorbing energy; satellites showing us entire galaxies in areas thought to be devoid of matter entirely… all of that has thrilled me for years… but when I looked in the opposite direction, into space, there was no mystery, no majestic awe to behold . . . all I saw was death.
 > 
