@@ -1,6 +1,6 @@
 ---
 title: William Shatner on his voyage into space
-description: An excerpt from Boldly Go: Reflections on a Life of Awe and Wonder by William Shatner on his voyage into space on Blue Origin in 2021.
+description: "An excerpt from Boldly Go: Reflections on a Life of Awe and Wonder by William Shatner on his voyage into space on Blue Origin in 2021."
 date: 2022-11-25
 tags: ["quote", "link", "tumblr reblog", "the universe"]
 ---
