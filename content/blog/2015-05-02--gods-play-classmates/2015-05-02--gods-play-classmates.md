@@ -3,11 +3,11 @@ title: The gods play in the scenic haven of a quick break with friends.
 description:
 date: 2015-05-02
 tags: ["quote", "link", "tumblr reblog"]
+image: 2015-05-02--gods-play-classmates.jpg
+imageAlt: two men sitting on a rock together, smiling
 ---
 
 Reblogged from [Humans of Seoul](https://www.tumblr.com/humans-of-seoul/117892522527)
-
-<img src="/2015-05-02--gods-play-classmates.jpg" alt="two men sitting on a rock together, smiling." >
 
 > “Happiness? That’s going out for a quick break during my exam period and drinking beer with my classmate. This is the scenic haven we have found. This is exactly how the gods play.”
 > 

@@ -3,9 +3,8 @@ title: Meryl Streep weild glasses
 description: The dramatic removal of eyeglasses is a cinematic cliché. On Streep, it’s a revelation.
 date: 2023-03-29
 tags: ["nyt", "link"]
+image: 2023-03-29--meryl-streep-glasses.jpg
 ---
-
-<img src="/2023-03-29--meryl-streep-glasses.jpg" alt="">
 
 > The dramatic removal of eyeglasses is a cinematic cliché. On Streep, it’s a revelation.
 > 

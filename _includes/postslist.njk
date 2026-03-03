@@ -13,6 +13,12 @@
       </time>
     </header>
 
+    {% for post in collections.posts %}
+      {% if post.data.image %}
+        <img src="{{ post.url }}{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+      {% endif %}
+    {% endfor %}
+
     <div class="postlist-content">
       {{ post.templateContent | safe }}
     </div>
