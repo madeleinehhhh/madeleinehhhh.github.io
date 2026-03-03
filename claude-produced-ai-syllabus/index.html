@@ -205,488 +205,275 @@ h2.postlist-title a {
 		<main id="main">
 			<heading-anchors>
 				
+<p></p><header>
 <h1 id="ai-and-machine-learning-a-self-directed-syllabus-for-the-analytically-minded-developer">AI &amp; Machine Learning: A Self-Directed Syllabus for the Analytically Minded Developer</h1>
-<p>Created by Claude.</p>
+<p><em>Created by Claude.</em></p>
 <p><em>Tailored for backgrounds in analytic philosophy and web development</em></p>
 <p>This syllabus is organized into five modules that build on each other, moving from intellectual history and conceptual foundations through to hands-on development and frontier research questions. Each module can take 2–6 weeks depending on depth of engagement. Resources are curated for someone who thinks carefully about concepts and can read technical material, but who is approaching ML from the outside.</p>
-<hr>
+</header>
+<section id="module-1">
 <h2 id="module-1-intellectual-history-and-conceptual-foundations">Module 1: Intellectual History &amp; Conceptual Foundations</h2>
 <p>Before touching any code, it pays to understand the long arc of AI research — the debates, the dead ends, and why the current moment looks the way it does. Your philosophy background gives you a real advantage here.</p>
+<section id="module-1-core">
 <h3 id="core-reading">Core Reading</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Book</td>
-<td><a href="https://web.archive.org/web/20200301043518/http://www.pamelamc.com/html/machines_who_think.html">Machines Who Think — Pamela McCorduck</a> ⭐ <em>Essential</em></td>
-<td>Definitive intellectual history of AI from antiquity to the 1980s. Readable narrative history.</td>
-</tr>
-<tr>
-<td>Essay</td>
-<td><a href="https://www.rand.org/pubs/papers/P3244.html">Alchemy and AI — Hubert Dreyfus (1965)</a> 🔹 <em>Philosophy</em></td>
-<td>The foundational philosophical critique of early symbolic AI. Deeply relevant to philosophy of mind debates.</td>
-</tr>
-<tr>
-<td>Book</td>
-<td><a href="https://archive.org/details/whatcomputerscan00drey">What Computers Can't Do — Hubert Dreyfus</a> 🔹 <em>Philosophy</em></td>
-<td>Dreyfus's full case against symbolic AI and the rationalist tradition. Read alongside the rebuttal literature.</td>
-</tr>
-<tr>
-<td>Article</td>
-<td><a href="http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf">A Proposal for the Dartmouth Summer Research Project on AI (1955)</a></td>
-<td>The founding document of AI as a field. Short, historically revealing.</td>
-</tr>
-<tr>
-<td>Essay</td>
-<td><a href="https://www.csee.umbc.edu/courses/471/papers/turing.pdf">Computing Machinery and Intelligence — Alan Turing (1950)</a> ⭐ <em>Essential</em></td>
-<td>The original Turing Test paper. Still philosophically rich and surprisingly readable.</td>
-</tr>
-<tr>
-<td>Article</td>
-<td><a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/minds-brains-and-programs/DC644B47A4299C637C89772FACC2706A">Minds, Brains, and Programs — John Searle (1980)</a> 🔹 <em>Philosophy</em></td>
-<td>The Chinese Room argument. Essential reading given current debates about LLM understanding.</td>
-</tr>
-</tbody>
-</table>
+<dl>
+<dt data-priority="essential"><a href="https://web.archive.org/web/20200301043518/http://www.pamelamc.com/html/machines_who_think.html">Machines Who Think — Pamela McCorduck</a></dt>
+<dd data-label="type">Book</dd>
+<dd>Definitive intellectual history of AI from antiquity to the 1980s. Readable narrative history.</dd><p></p>
+<p><dt><a href="https://www.rand.org/pubs/papers/P3244.html">Alchemy and AI — Hubert Dreyfus (1965)</a></dt>
+<dd data-label="type">Essay</dd>
+<dd data-label="tags">Philosophy</dd>
+<dd>The foundational philosophical critique of early symbolic AI. Deeply relevant to philosophy of mind debates.</dd></p>
+<p><dt><a href="https://archive.org/details/whatcomputerscan00drey">What Computers Can't Do — Hubert Dreyfus</a></dt>
+<dd data-label="type">Book</dd>
+<dd data-label="tags">Philosophy</dd>
+<dd>Dreyfus's full case against symbolic AI and the rationalist tradition. Read alongside the rebuttal literature.</dd></p>
+<p><dt><a href="http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf">A Proposal for the Dartmouth Summer Research Project on AI (1955)</a></dt>
+<dd data-label="type">Article</dd>
+<dd>The founding document of AI as a field. Short, historically revealing.</dd></p>
+<p><dt data-priority="essential"><a href="https://www.csee.umbc.edu/courses/471/papers/turing.pdf">Computing Machinery and Intelligence — Alan Turing (1950)</a></dt>
+<dd data-label="type">Essay</dd>
+<dd>The original Turing Test paper. Still philosophically rich and surprisingly readable.</dd></p>
+<p><dt><a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/minds-brains-and-programs/DC644B47A4299C637C89772FACC2706A">Minds, Brains, and Programs — John Searle (1980)</a></dt>
+<dd data-label="type">Article</dd>
+<dd data-label="tags">Philosophy</dd>
+<dd>The Chinese Room argument. Essential reading given current debates about LLM understanding.</dd></p>
+<p></p></dl><p></p>
+<p></p></section><p></p>
+<p></p><section id="module-1-supplemental">
 <h3 id="supplemental">Supplemental</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Podcast</td>
-<td><a href="https://lexfridman.com/yann-lecun-3/">Lex Fridman #302 — Yann LeCun</a></td>
-<td>LeCun's skepticism about current architectures. Good intro to live debates about what's missing.</td>
-</tr>
-<tr>
-<td>Essay</td>
-<td><a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">The Bitter Lesson — Rich Sutton (2019)</a> ⭐ <em>Essential</em></td>
-<td>Influential short essay arguing that general methods beat human-engineered solutions. Sparks real debate.</td>
-</tr>
-</tbody>
-</table>
-<hr>
+<dl>
+<dt><a href="https://lexfridman.com/yann-lecun-3/">Lex Fridman #302 — Yann LeCun</a></dt>
+<dd data-label="type">Podcast</dd>
+<dd>LeCun's skepticism about current architectures. Good intro to live debates about what's missing.</dd><p></p>
+<p><dt data-priority="essential"><a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">The Bitter Lesson — Rich Sutton (2019)</a></dt>
+<dd data-label="type">Essay</dd>
+<dd>Influential short essay arguing that general methods beat human-engineered solutions. Sparks real debate.</dd></p>
+<p></p></dl><p></p>
+<p></p></section>
+</section>
+<section id="module-2">
 <h2 id="module-2-how-neural-networks-actually-work">Module 2: How Neural Networks Actually Work</h2>
-<p>Build genuine intuition for what is happening inside these models before diving into theory. The goal is geometric and mechanical understanding, not just metaphor.</p>
-<h3 id="video-series-watch-first">Video Series (Watch First)</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Video</td>
-<td><a href="https://www.youtube.com/watch?v=aircAruvnKk">But what is a neural network? — 3Blue1Brown</a> ⭐ <em>Essential</em></td>
-<td>The best visual introduction to neural nets. Watch all 4 episodes in the series.</td>
-</tr>
-<tr>
-<td>Video</td>
-<td><a href="https://karpathy.ai/zero-to-hero.html">Neural Networks: Zero to Hero — Andrej Karpathy</a> ⭐ <em>Essential</em></td>
-<td>Builds a GPT from scratch in Python. Exceptional explanations. Do the coding exercises.</td>
-</tr>
-<tr>
-<td>Video</td>
-<td><a href="https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ">Transformers from Scratch — Andrej Karpathy (makemore series)</a> 🔧 <em>Technical</em></td>
-<td>Continuation of Zero to Hero, focuses on attention mechanisms.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="articles-and-blog-posts">Articles &amp; Blog Posts</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Blog</td>
-<td><a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer — Jay Alammar</a> ⭐ <em>Essential</em></td>
-<td>The clearest visual walkthrough of the transformer architecture. Essential companion to the original paper.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="http://jalammar.github.io/illustrated-gpt2/">The Illustrated GPT-2 — Jay Alammar</a></td>
-<td>Extends the transformer post to autoregressive language models. Concrete and well-illustrated.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="https://lilianweng.github.io/">Lilian Weng's Blog</a> 🔧 <em>Technical</em></td>
-<td>Research scientist at OpenAI; deep technical posts on attention, RL, diffusion. High-quality reference.</td>
-</tr>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need (2017)</a></td>
-<td>The transformer paper. Dense, but worth reading once you have the illustrated versions as scaffolding.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="books">Books</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Book</td>
-<td><a href="https://www.deeplearningbook.org/">Deep Learning — Goodfellow, Bengio, Courville (free online)</a> 🆓 <em>Free</em></td>
-<td>The standard graduate textbook. Use as reference rather than reading cover to cover.</td>
-</tr>
-<tr>
-<td>Book</td>
-<td><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1098125975">Hands-On Machine Learning — Aurélien Géron</a></td>
-<td>Practical, code-first introduction. Great bridge between intuition and implementation.</td>
-</tr>
-</tbody>
-</table>
-<hr>
+<p>Build genuine intuition for what is happening inside these models before diving into theory. The goal is geometric and mechanical understanding, not just metaphor.</p><p></p>
+<p></p><dl>
+<dt data-priority="essential"><a href="https://www.youtube.com/watch?v=aircAruvnKk">But what is a neural network? — 3Blue1Brown</a></dt>
+<dd data-label="type">Video</dd>
+<dd>The best visual introduction to neural nets. Watch all 4 episodes in the series.</dd><p></p>
+<p><dt data-priority="essential"><a href="https://karpathy.ai/zero-to-hero.html">Neural Networks: Zero to Hero — Andrej Karpathy</a></dt>
+<dd data-label="type">Video</dd>
+<dd>Builds a GPT from scratch in Python. Exceptional explanations. Do the coding exercises.</dd></p>
+<p><dt><a href="https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ">Transformers from Scratch — Andrej Karpathy (makemore series)</a></dt>
+<dd data-label="type">Video</dd>
+<dd data-label="tags">Technical</dd>
+<dd>Continuation of Zero to Hero, focuses on attention mechanisms.</dd></p>
+<p><dt data-priority="essential"><a href="https://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer — Jay Alammar</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>The clearest visual walkthrough of the transformer architecture. Essential companion to the original paper.</dd></p>
+<p><dt><a href="http://jalammar.github.io/illustrated-gpt2/">The Illustrated GPT-2 — Jay Alammar</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Extends the transformer post to autoregressive language models. Concrete and well-illustrated.</dd></p>
+<p><dt><a href="https://lilianweng.github.io/">Lilian Weng's Blog</a></dt>
+<dd data-label="type">Blog</dd>
+<dd data-label="tags">Technical</dd>
+<dd>Research scientist at OpenAI; deep technical posts on attention, RL, diffusion. High-quality reference.</dd></p>
+<p><dt><a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need (2017)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>The transformer paper. Dense, but worth reading once you have the illustrated versions as scaffolding.</dd></p>
+<p><dt><a href="https://www.deeplearningbook.org/">Deep Learning — Goodfellow, Bengio, Courville</a></dt>
+<dd data-label="type">Book</dd>
+<dd data-label="tags">Free</dd>
+<dd>The standard graduate textbook. Use as reference rather than reading cover to cover.</dd></p>
+<p><dt><a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1098125975">Hands-On Machine Learning — Aurélien Géron</a></dt>
+<dd data-label="type">Book</dd>
+<dd>Practical, code-first introduction. Great bridge between intuition and implementation.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-3">
 <h2 id="module-3-the-llm-revolution-from-gpt-to-now">Module 3: The LLM Revolution — From GPT to Now</h2>
-<p>Understand the specific developments that led to the current generation of large language models — scaling laws, RLHF, and the emergence of surprising capabilities.</p>
-<h3 id="key-papers-read-in-order">Key Papers (Read in Order)</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models (2020)</a> ⭐ <em>Essential</em></td>
-<td>The paper that made scaling compute and data the dominant research strategy. Philosophically interesting on emergence.</td>
-</tr>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/2005.14165">Language Models are Few-Shot Learners / GPT-3 (2020)</a></td>
-<td>The GPT-3 paper. Introduced in-context learning. Read the introduction and results sections at minimum.</td>
-</tr>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/2203.02155">Training language models to follow instructions with human feedback (InstructGPT)</a> ⭐ <em>Essential</em></td>
-<td>How RLHF works. The technique behind ChatGPT. Readable and important.</td>
-</tr>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/2303.12528">Sparks of AGI — Microsoft Research (2023)</a></td>
-<td>Controversial but worth reading as a document of the current moment. Raises real philosophical questions.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="articles-and-explainers">Articles &amp; Explainers</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Blog</td>
-<td><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing and Why Does It Work? — Stephen Wolfram</a> ⭐ <em>Essential</em></td>
-<td>Long but accessible. Good for conceptual understanding without heavy math.</td>
-</tr>
-<tr>
-<td>Article</td>
-<td><a href="https://dl.acm.org/doi/10.1145/3442188.3445922">Stochastic Parrots — Bender et al. (2021)</a> 🔹 <em>Philosophy</em></td>
-<td>Influential critical perspective on LLMs. Raises questions about meaning and statistical correlation.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="https://garymarcus.substack.com/">The AI Hype Cycle Is Distracting Us — Gary Marcus</a></td>
-<td>Marcus's ongoing skeptical commentary. Good counterweight to enthusiasm. Follow his Substack.</td>
-</tr>
-<tr>
-<td>Newsletter</td>
-<td><a href="https://importai.substack.com/">Import AI — Jack Clark</a></td>
-<td>Weekly newsletter by co-founder of Anthropic. Tracks research developments with good editorial judgment.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="podcasts-for-context">Podcasts for Context</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Podcast</td>
-<td><a href="https://80000hours.org/podcast/episodes/paul-christiano-ai-alignment-solutions/">80,000 Hours — Interview with Paul Christiano</a></td>
-<td>Alignment researcher on what the hard problems actually are. Rigorous and honest.</td>
-</tr>
-<tr>
-<td>Podcast</td>
-<td><a href="https://www.youtube.com/@MachineLearningStreetTalk">MLST — Various Episodes</a> 🔧 <em>Technical</em></td>
-<td>Technical podcast with researchers. Higher level than Lex Fridman, good once you have foundations.</td>
-</tr>
-</tbody>
-</table>
-<hr>
+<p>Understand the specific developments that led to the current generation of large language models — scaling laws, RLHF, and the emergence of surprising capabilities.</p><p></p>
+<p></p><section id="module-3-papers">
+<h3 id="key-papers-read-in-order">Key Papers <small>(Read in Order)</small></h3>
+<dl>
+<dt data-priority="essential"><a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language Models (2020)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>The paper that made scaling compute and data the dominant research strategy. Philosophically interesting on emergence.</dd><p></p>
+<p><dt><a href="https://arxiv.org/abs/2005.14165">Language Models are Few-Shot Learners / GPT-3 (2020)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>The GPT-3 paper. Introduced in-context learning. Read the introduction and results sections at minimum.</dd></p>
+<p><dt data-priority="essential"><a href="https://arxiv.org/abs/2203.02155">Training language models to follow instructions with human feedback (InstructGPT)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>How RLHF works. The technique behind ChatGPT. Readable and important.</dd></p>
+<p><dt><a href="https://arxiv.org/abs/2303.12528">Sparks of AGI — Microsoft Research (2023)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>Controversial but worth reading as a document of the current moment. Raises real philosophical questions.</dd></p>
+<p></p></dl><p></p>
+<p></p></section><p></p>
+<p></p><section id="module-3-articles">
+<h3 id="articles-blogs-and-podcasts">Articles, Blogs &amp; Podcasts</h3>
+<dl>
+<dt data-priority="essential"><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What Is ChatGPT Doing and Why Does It Work? — Stephen Wolfram</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Long but accessible. Good for conceptual understanding without heavy math.</dd><p></p>
+<p><dt><a href="https://dl.acm.org/doi/10.1145/3442188.3445922">Stochastic Parrots — Bender et al. (2021)</a></dt>
+<dd data-label="type">Article</dd>
+<dd data-label="tags">Philosophy</dd>
+<dd>Influential critical perspective on LLMs. Raises questions about meaning and statistical correlation.</dd></p>
+<p><dt><a href="https://garymarcus.substack.com/">The AI Hype Cycle Is Distracting Us — Gary Marcus</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Marcus's ongoing skeptical commentary. Good counterweight to enthusiasm. Follow his Substack.</dd></p>
+<p><dt><a href="https://importai.substack.com/">Import AI — Jack Clark</a></dt>
+<dd data-label="type">Newsletter</dd>
+<dd>Weekly newsletter by co-founder of Anthropic. Tracks research developments with good editorial judgment.</dd></p>
+<p><dt><a href="https://80000hours.org/podcast/episodes/paul-christiano-ai-alignment-solutions/">80,000 Hours — Interview with Paul Christiano</a></dt>
+<dd data-label="type">Podcast</dd>
+<dd>Alignment researcher on what the hard problems actually are. Rigorous and honest.</dd></p>
+<p><dt><a href="https://www.youtube.com/@MachineLearningStreetTalk">MLST — Various Episodes</a></dt>
+<dd data-label="type">Podcast</dd>
+<dd data-label="tags">Technical</dd>
+<dd>Technical podcast with researchers. Higher level than Lex Fridman, good once you have foundations.</dd></p>
+<p></p></dl><p></p>
+<p></p></section>
+</section>
+<section id="module-4">
 <h2 id="module-4-hands-on-development">Module 4: Hands-On Development</h2>
 <p>This is where your web development background becomes directly useful. The goal is to build things — starting with API calls and moving toward understanding embeddings, retrieval, and agents.</p>
-<h3 id="learn-python-basics-if-needed">Learn Python Basics (if needed)</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Course</td>
-<td><a href="https://www.py4e.com/">Python for Everybody — Dr. Chuck (Coursera/free)</a> 🆓 <em>Free</em></td>
-<td>Best beginner Python course for people coming from other languages. Free materials available.</td>
-</tr>
-<tr>
-<td>Book</td>
-<td><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a> 🆓 <em>Free</em></td>
-<td>Practical Python. Free online. Good for someone who learns by doing.</td>
-</tr>
-</tbody>
-</table>
+<section id="module-4-python">
+<h3 id="learn-python-basics-if-needed">Learn Python Basics <small>(if needed)</small></h3>
+<dl>
+<dt><a href="https://www.py4e.com/">Python for Everybody — Dr. Chuck (Coursera/free)</a></dt>
+<dd data-label="type">Course</dd>
+<dd data-label="tags">Free</dd>
+<dd>Best beginner Python course for people coming from other languages. Free materials available.</dd><p></p>
+<p><dt><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a></dt>
+<dd data-label="type">Book</dd>
+<dd data-label="tags">Free</dd>
+<dd>Practical Python. Free online. Good for someone who learns by doing.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-4-api">
 <h3 id="api-and-prompt-engineering">API &amp; Prompt Engineering</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Docs</td>
-<td><a href="https://docs.anthropic.com/">Anthropic API Documentation</a> ⭐ <em>Essential</em></td>
-<td>Start here for building with Claude. Well-written docs with good examples.</td>
-</tr>
-<tr>
-<td>Docs</td>
-<td><a href="https://cookbook.openai.com/">OpenAI Cookbook</a></td>
-<td>Practical examples of common LLM tasks. Most patterns translate to any provider.</td>
-</tr>
-<tr>
-<td>Article</td>
-<td><a href="https://www.promptingguide.ai/">Prompt Engineering Guide</a></td>
-<td>Comprehensive guide to prompting techniques. Good reference for chain-of-thought, few-shot, etc.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="embeddings-and-rag-closest-to-your-drupal-work">Embeddings &amp; RAG (Closest to Your Drupal Work)</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Blog</td>
-<td><a href="https://simonwillison.net/2023/Oct/23/embeddings/">What are embeddings? — Simon Willison</a> ⭐ <em>Essential</em></td>
-<td>Clear explanation of vector embeddings for a developer audience. Simon's blog is excellent generally.</td>
-</tr>
-<tr>
-<td>Tutorial</td>
-<td><a href="https://python.langchain.com/docs/use_cases/question_answering/">Building RAG Applications — LangChain Docs</a></td>
-<td>Step-by-step guide to retrieval-augmented generation. Connects your content modeling intuitions to AI.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="https://www.pinecone.io/learn/vector-database/">Vector databases explained — Pinecone</a></td>
-<td>Practical intro to the database layer that makes semantic search possible.</td>
-</tr>
-</tbody>
-</table>
+<dl>
+<dt data-priority="essential"><a href="https://docs.anthropic.com/">Anthropic API Documentation</a></dt>
+<dd data-label="type">Docs</dd>
+<dd>Start here for building with Claude. Well-written docs with good examples.</dd><p></p>
+<p><dt><a href="https://cookbook.openai.com/">OpenAI Cookbook</a></dt>
+<dd data-label="type">Docs</dd>
+<dd>Practical examples of common LLM tasks. Most patterns translate to any provider.</dd></p>
+<p><dt><a href="https://www.promptingguide.ai/">Prompt Engineering Guide</a></dt>
+<dd data-label="type">Article</dd>
+<dd>Comprehensive guide to prompting techniques. Good reference for chain-of-thought, few-shot, etc.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-4-rag">
+<h3 id="embeddings-and-rag">Embeddings &amp; RAG</h3>
+<dl>
+<dt data-priority="essential"><a href="https://simonwillison.net/2023/Oct/23/embeddings/">What are embeddings? — Simon Willison</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Clear explanation of vector embeddings for a developer audience. Simon's blog is excellent generally.</dd><p></p>
+<p><dt><a href="https://python.langchain.com/docs/use_cases/question_answering/">Building RAG Applications — LangChain Docs</a></dt>
+<dd data-label="type">Tutorial</dd>
+<dd>Step-by-step guide to retrieval-augmented generation. Connects your content modeling intuitions to AI.</dd></p>
+<p><dt><a href="https://www.pinecone.io/learn/vector-database/">Vector databases explained — Pinecone</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Practical intro to the database layer that makes semantic search possible.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-4-courses">
 <h3 id="courses">Courses</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Course</td>
-<td><a href="https://course.fast.ai/">fast.ai — Practical Deep Learning for Coders</a> ⭐ <em>Essential</em></td>
-<td>Top-down, code-first approach. Best for developers who want to build before fully understanding theory.</td>
-</tr>
-<tr>
-<td>Course</td>
-<td><a href="https://www.deeplearning.ai/short-courses/">DeepLearning.AI Short Courses</a></td>
-<td>2–4 hour focused courses on specific topics (RAG, agents, fine-tuning). Very practical.</td>
-</tr>
-<tr>
-<td>Course</td>
-<td><a href="https://fullstackdeeplearning.com/">Full Stack Deep Learning</a> 🔧 <em>Technical</em></td>
-<td>Covers the engineering side: deployment, monitoring, data pipelines. Excellent for web devs.</td>
-</tr>
-</tbody>
-</table>
-<hr>
+<dl>
+<dt data-priority="essential"><a href="https://course.fast.ai/">fast.ai — Practical Deep Learning for Coders</a></dt>
+<dd data-label="type">Course</dd>
+<dd>Top-down, code-first approach. Best for developers who want to build before fully understanding theory.</dd><p></p>
+<p><dt><a href="https://www.deeplearning.ai/short-courses/">DeepLearning.AI Short Courses</a></dt>
+<dd data-label="type">Course</dd>
+<dd>2–4 hour focused courses on specific topics (RAG, agents, fine-tuning). Very practical.</dd></p>
+<p><dt><a href="https://fullstackdeeplearning.com/">Full Stack Deep Learning</a></dt>
+<dd data-label="type">Course</dd>
+<dd data-label="tags">Technical</dd>
+<dd>Covers the engineering side: deployment, monitoring, data pipelines. Excellent for web devs.</dd></p>
+<p></p></dl>
+</section>
+</section>
+<section id="module-5">
 <h2 id="module-5-frontier-questions-and-philosophy-of-ai">Module 5: Frontier Questions &amp; Philosophy of AI</h2>
 <p>This is where your analytic philosophy background is most valuable. The open questions in alignment, interpretability, and AI ethics are genuinely hard philosophical problems — not merely engineering challenges.</p>
+<section id="module-5-alignment">
 <h3 id="alignment-and-safety">Alignment &amp; Safety</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Essay</td>
-<td><a href="https://drive.google.com/file/d/1uK7NhdSKprQKZnRjU58X7NLA1auXlWHt/view">AGI Safety from First Principles — Richard Ngo</a> ⭐ <em>Essential</em></td>
-<td>The clearest conceptual overview of why alignment is hard. Philosophically rigorous.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="https://ai-alignment.com/">AI Safety — Paul Christiano</a></td>
-<td>Blog by one of the leading alignment researchers. Dense but worth it.</td>
-</tr>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/1606.06565">Concrete Problems in AI Safety — Amodei et al. (2016)</a></td>
-<td>Lays out specific technical problems in making AI systems behave as intended.</td>
-</tr>
-<tr>
-<td>Book</td>
-<td><a href="https://www.amazon.com/Human-Compatible-Artificial-Intelligence-Problem/dp/0525558616">Human Compatible — Stuart Russell</a> ⭐ <em>Essential</em></td>
-<td>Best book-length treatment of the alignment problem. Clear philosophical argument.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="interpretability-whats-actually-happening-inside">Interpretability — What's Actually Happening Inside?</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Blog</td>
-<td><a href="https://transformer-circuits.pub/">Transformer Circuits Thread — Anthropic</a> 🔧 <em>Technical</em></td>
-<td>Anthropic's ongoing research into mechanistic interpretability. Technically demanding but fascinating.</td>
-</tr>
-<tr>
-<td>Article</td>
-<td><a href="https://distill.pub/2020/circuits/zoom-in/">Zoom In: An Introduction to Circuits — Distill.pub</a> ⭐ <em>Essential</em></td>
-<td>Distill.pub has the best visual explanations of neural network internals. The whole site is worth exploring.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="https://colah.github.io/">Chris Olah's Blog</a></td>
-<td>Olah pioneered interpretability research. His older posts on neural net visualization are foundational.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="philosophy-of-mind-connections">Philosophy of Mind Connections</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/abs/1906.07510">Language Models and Linguistic Knowledge — Linzen (2019)</a> 🔹 <em>Philosophy</em></td>
-<td>Asks whether LLMs know grammar or merely predict it. Connects to debates about competence vs. performance.</td>
-</tr>
-<tr>
-<td>Book</td>
-<td><a href="https://www.amazon.com/Language-Instinct-How-Mind-Creates/dp/0060976519">The Language Instinct — Steven Pinker</a></td>
-<td>Background on linguistics and cognitive science. Useful context for evaluating LLM language claims.</td>
-</tr>
-<tr>
-<td>Essay</td>
-<td><a href="https://arxiv.org/abs/1911.01547">On the Measure of Intelligence — François Chollet (2019)</a> 🔹 <em>Philosophy</em></td>
-<td>Proposes a rigorous definition of intelligence and critiques benchmark-based evaluation. Philosophically sharp.</td>
-</tr>
-<tr>
-<td>Newsletter</td>
-<td><a href="https://www.alignmentforum.org/">The Alignment Forum</a></td>
-<td>Community of alignment researchers. High signal-to-noise ratio. Read the featured posts first.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ongoing-sources-to-follow">Ongoing Sources to Follow</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Resource</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Blog</td>
-<td><a href="https://simonwillison.net/">Simon Willison's Blog (simonwillison.net)</a> ⭐ <em>Essential</em></td>
-<td>Developer perspective on AI tools. Practical, honest, well-curated. Excellent for staying current.</td>
-</tr>
-<tr>
-<td>Newsletter</td>
-<td><a href="https://www.deeplearning.ai/the-batch/">The Batch — Andrew Ng</a></td>
-<td>Weekly AI newsletter with good editorial perspective. Good balance of technical and strategic.</td>
-</tr>
-<tr>
-<td>Blog</td>
-<td><a href="https://www.anthropic.com/research">Anthropic Research Blog</a></td>
-<td>Primary source on interpretability, alignment, and model evaluations from Anthropic.</td>
-</tr>
-<tr>
-<td>Paper</td>
-<td><a href="https://arxiv.org/list/cs.AI/recent">arXiv cs.AI and cs.LG sections</a></td>
-<td>Preprint server where all major ML research appears first. Follow to track the frontier.</td>
-</tr>
-</tbody>
-</table>
-<hr>
+<dl>
+<dt data-priority="essential"><a href="https://drive.google.com/file/d/1uK7NhdSKprQKZnRjU58X7NLA1auXlWHt/view">AGI Safety from First Principles — Richard Ngo</a></dt>
+<dd data-label="type">Essay</dd>
+<dd>The clearest conceptual overview of why alignment is hard. Philosophically rigorous.</dd><p></p>
+<p><dt><a href="https://ai-alignment.com/">AI Safety — Paul Christiano</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Blog by one of the leading alignment researchers. Dense but worth it.</dd></p>
+<p><dt><a href="https://arxiv.org/abs/1606.06565">Concrete Problems in AI Safety — Amodei et al. (2016)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>Lays out specific technical problems in making AI systems behave as intended.</dd></p>
+<p><dt data-priority="essential"><a href="https://www.amazon.com/Human-Compatible-Artificial-Intelligence-Problem/dp/0525558616">Human Compatible — Stuart Russell</a></dt>
+<dd data-label="type">Book</dd>
+<dd>Best book-length treatment of the alignment problem. Clear philosophical argument.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-5-interpretability">
+<h3 id="interpretability">Interpretability</h3>
+<dl>
+<dt><a href="https://transformer-circuits.pub/">Transformer Circuits Thread — Anthropic</a></dt>
+<dd data-label="type">Blog</dd>
+<dd data-label="tags">Technical</dd>
+<dd>Anthropic's ongoing research into mechanistic interpretability. Technically demanding but fascinating.</dd><p></p>
+<p><dt data-priority="essential"><a href="https://distill.pub/2020/circuits/zoom-in/">Zoom In: An Introduction to Circuits — Distill.pub</a></dt>
+<dd data-label="type">Article</dd>
+<dd>Distill.pub has the best visual explanations of neural network internals. The whole site is worth exploring.</dd></p>
+<p><dt><a href="https://colah.github.io/">Chris Olah's Blog</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Olah pioneered interpretability research. His older posts on neural net visualization are foundational.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-5-philosophy">
+<h3 id="philosophy-of-mind">Philosophy of Mind</h3>
+<dl>
+<dt><a href="https://arxiv.org/abs/1906.07510">Language Models and Linguistic Knowledge — Linzen (2019)</a></dt>
+<dd data-label="type">Paper</dd>
+<dd data-label="tags">Philosophy</dd>
+<dd>Asks whether LLMs know grammar or merely predict it. Connects to debates about competence vs. performance.</dd><p></p>
+<p><dt><a href="https://www.amazon.com/Language-Instinct-How-Mind-Creates/dp/0060976519">The Language Instinct — Steven Pinker</a></dt>
+<dd data-label="type">Book</dd>
+<dd>Background on linguistics and cognitive science. Useful context for evaluating LLM language claims.</dd></p>
+<p><dt><a href="https://arxiv.org/abs/1911.01547">On the Measure of Intelligence — François Chollet (2019)</a></dt>
+<dd data-label="type">Essay</dd>
+<dd data-label="tags">Philosophy</dd>
+<dd>Proposes a rigorous definition of intelligence and critiques benchmark-based evaluation. Philosophically sharp.</dd></p>
+<p><dt><a href="https://www.alignmentforum.org/">The Alignment Forum</a></dt>
+<dd data-label="type">Newsletter</dd>
+<dd>Community of alignment researchers. High signal-to-noise ratio. Read the featured posts first.</dd></p>
+<p></p></dl>
+</section><p></p>
+<p></p><section id="module-5-ongoing">
+<h3 id="ongoing-sources">Ongoing Sources</h3>
+<dl>
+<dt data-priority="essential"><a href="https://simonwillison.net/">Simon Willison's Blog</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Developer perspective on AI tools. Practical, honest, well-curated. Excellent for staying current.</dd><p></p>
+<p><dt><a href="https://www.deeplearning.ai/the-batch/">The Batch — Andrew Ng</a></dt>
+<dd data-label="type">Newsletter</dd>
+<dd>Weekly AI newsletter with good editorial perspective. Good balance of technical and strategic.</dd></p>
+<p><dt><a href="https://www.anthropic.com/research">Anthropic Research Blog</a></dt>
+<dd data-label="type">Blog</dd>
+<dd>Primary source on interpretability, alignment, and model evaluations from Anthropic.</dd></p>
+<p><dt><a href="https://arxiv.org/list/cs.AI/recent">arXiv cs.AI and cs.LG sections</a></dt>
+<dd data-label="type">Paper</dd>
+<dd>Preprint server where all major ML research appears first. Follow to track the frontier.</dd></p>
+<p></p></dl>
+</section>
+</section>
+<aside id="sequencing">
 <h2 id="a-note-on-sequencing">A Note on Sequencing</h2>
 <p>You don't need to finish Module 1 before starting Module 4. A good approach is to run conceptual reading (Modules 1–2) alongside practical building (Module 4) — each will make the other more meaningful. Module 3 fills in the historical arc of recent developments and is best read once you have enough technical vocabulary from Module 2 to evaluate the claims being made.</p>
 <p>Module 5 can begin anytime, but will hit differently once you've built something and confronted firsthand how these systems behave in ways that are hard to predict or explain.</p>
-<hr>
-<p><em>This syllabus was compiled February 2026. The field moves fast — check publication dates and supplement with recent work from arXiv and the blogs listed in Module 5.</em></p>
+</aside>
+<footer>
+<p><small>This syllabus was compiled February 2026. The field moves fast — check publication dates and supplement with recent work from arXiv and the blogs listed in Module 5.</small></p>
+</footer><p></p>
 
 
 			</heading-anchors>
@@ -698,7 +485,7 @@ h2.postlist-title a {
 			</p>
 		</footer>
 
-		<!-- This page `/claude-produced-ai-syllabus/` was built on 2026-03-03T17:49:41.496Z -->
+		<!-- This page `/claude-produced-ai-syllabus/` was built on 2026-03-03T19:18:38.871Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
