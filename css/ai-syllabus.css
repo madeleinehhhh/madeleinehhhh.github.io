@@ -1,3 +1,7 @@
+* {
+  outline: 3px solid oklch(45% 0.3 264 / 0.3);
+}
+
 dt {
     font-size: 1.1em;
     font-weight: bold;
