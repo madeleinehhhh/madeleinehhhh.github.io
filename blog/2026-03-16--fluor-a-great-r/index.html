@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;nytimes&#39;</title>
+		<title>Fluor, a great &quot;R&quot;</title>
 		<meta name="description" content="re-joining the indieweb">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Madeleine.Cool">
 		
@@ -183,6 +183,174 @@ h2.postlist-title a {
 .links-nextprev {
 	display: flex;
 	justify-content: space-between;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 	</head>
@@ -205,37 +373,24 @@ h2.postlist-title a {
 		<main id="main">
 			<heading-anchors>
 				
-<h1 id="tagged-nytimes">Tagged “nytimes”</h1>
 
 
-<ol reversed="" class="postlist" style="--postlist-index: 2">
-<li class="postlist-item">
-  <article class="tag-posts tag-nytimes tag-television ">
-    <header>
-      <h2 class="postlist-title" id="the-joy">
-        <a href="/blog/2023-03-29--tv-in-the-90s-weird-adults/" class="postlist-link">The joy
-        </a>
-      </h2>
-      <time class="postlist-date" datetime="2023-03-29">
-        March 2023
-      </time>
-    </header>
+<h1 id="fluor-a-great-r">Fluor, a great &quot;R&quot;</h1>
 
-      
+<ul class="post-metadata">
+	<li><time datetime="2026-03-16">16 March 2026</time></li>
+	<li><a href="/tags/logo/" class="post-tag">logo</a>, </li>
+	<li><a href="/tags/design/" class="post-tag">design</a></li>
+</ul>
 
-    <div class="postlist-content">
-      <blockquote>
-<p>For a kid watching TV in the 1980s and '90s, seeing grown-ups get weird meant that adulthood might not have to be a drag.</p>
-<p>—<a href="https://www.nytimes.com/interactive/2023/03/23/arts/letting-loose-dancing-tv.html">NYT</a></p>
-</blockquote>
 
-    </div>
-  </article>
-</li>
-</ol>
+  <picture><source type="image/avif" srcset="/img/XftJFrWNmP-3840.avif 3840w"><source type="image/webp" srcset="/img/XftJFrWNmP-3840.webp 3840w"><img loading="lazy" decoding="async" src="/img/XftJFrWNmP-3840.png" alt="" width="3840" height="868"></picture>
 
-<p>See <a href="/tags/">all tags</a>.</p>
 
+<p>Just look at the &quot;R&quot;: <a href="https://en.wikipedia.org/wiki/Fluor_Corporation">Fluor Corporation</a></p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2026-03-02--can-a-bot-be-moral/">Can a chat bot be &quot;moral&quot;?</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -246,7 +401,7 @@ h2.postlist-title a {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/nytimes/` was built on 2026-03-16T18:09:10.669Z -->
+		<!-- This page `/blog/2026-03-16--fluor-a-great-r/` was built on 2026-03-16T18:08:59.377Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

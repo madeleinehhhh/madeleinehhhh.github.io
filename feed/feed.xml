@@ -5,11 +5,19 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-03-02T00:00:00Z</updated>
+  <updated>2026-03-16T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Fluor, a great &quot;R&quot;</title>
+    <link href="https://example.com/blog/2026-03-16--fluor-a-great-r/" />
+    <updated>2026-03-16T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-03-16--fluor-a-great-r/</id>
+    <content type="html">&lt;p&gt;Just look at the &amp;quot;R&amp;quot;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Fluor_Corporation&quot;&gt;Fluor Corporation&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Can a chat bot be &quot;moral&quot;?</title>
     <link href="https://example.com/blog/2026-03-02--can-a-bot-be-moral/" />
@@ -121,17 +129,6 @@
     <updated>2023-08-10T00:00:00Z</updated>
     <id>https://example.com/blog/2023-08-10--collier-explains-music/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eRkgK4jfi6M&quot;&gt;Watch on YouTube&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Stakhanovite movement</title>
-    <link href="https://example.com/blog/2023-04-03--stakhanovite/" />
-    <updated>2023-04-03T00:00:00Z</updated>
-    <id>https://example.com/blog/2023-04-03--stakhanovite/</id>
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;The Stakhanovite movement (стаха́новское движе́ние) was a mass cultural movement of workers which originated in the Soviet Union, and encouraged socialist emulation and rationalization of workplace processes. The Stakhanovites (стаха́новцы) modeled themselves after Alexei Stakhanov and took pride in their ability to produce more than was required by working harder and more efficiently, thus contributing to the common good and strengthening the socialist state. The movement began in the coal industry but later spread to many other industries in the Soviet Union. Initially popular, it eventually encountered resistance as the increased productivity led to increased demands on workers.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://en.wikipedia.org/wiki/Stakhanovite_movement&quot;&gt;Wiktionary&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
