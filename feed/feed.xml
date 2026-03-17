@@ -5,11 +5,24 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-03-16T00:00:00Z</updated>
+  <updated>2026-03-17T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Arctic Ground Squirrels</title>
+    <link href="https://example.com/blog/2026-03-17--arctic-ground-squirrels/" />
+    <updated>2026-03-17T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-03-17--arctic-ground-squirrels/</id>
+    <content type="html">&lt;p&gt;Arctic Ground Squirrels hibernate for something like eight months of the year—and when they are hibernating, their body temperature goes down to freezing (or even slightly below!) and they let their brains die. Then, over a couple hours when they emerge from hibernation, they regrow their brains. And, they indeed don&#39;t have the same memories they had before—they don&#39;t fear theings they feared the year before. But, don&#39;t worry, they do remember their friends.&lt;/p&gt;
+&lt;p&gt;Listen to this great &lt;a href=&quot;https://radiolab.org/podcast/terrestrials-08-the-snowball-extreme-squirrels-in-the-arctic&quot;&gt;Radiolab Terrestrials episode to learn more&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The photo is by &lt;a href=&quot;https://www.joelsartore.com/ani072-00019/&quot;&gt;Joel Sartore&lt;/a&gt;. Here&#39;s what he posted about the squirrels:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hibernating Arctic ground squirrels (Spermopilus parryii) at the University of Alaska at Fairbanks. This animal is the grand champion of all hibernators. It’s the only mammal that can drop its body temperature to below freezing. They hibernate for seven months. Females go in first, in August. Males follow a month later. They come out again to feed on tundra plants in May. Biologists at UAF have been studying the animal for 20 years, but still can’t figure out how this animal maintains a flat body temperature for all those months just above freezing. “You could put people into hibernation for space trips if you could understand it better,” said Franziska ‘Fran’ Kohl, one of the biologists here. “They also show symptoms of Alzheimers during hibernation.” She added that traumatic head injuries heal when in hibernation, another thing scientists are trying to figure out.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   <entry>
     <title>Fluor, a great &quot;R&quot;</title>
     <link href="https://example.com/blog/2026-03-16--fluor-a-great-r/" />
@@ -121,14 +134,6 @@
 &lt;p&gt;More to come by way of an explanation and more strategies, but here&#39;s the code as I&#39;m using it now:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;color: hsl(from var(--c) 157 54 calc(18 + round(nearest,calc(100 - l),100)));
 &lt;/code&gt;&lt;/pre&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Jacob Collier explains music in 5 levels</title>
-    <link href="https://example.com/blog/2023-08-10--collier-explains-music/" />
-    <updated>2023-08-10T00:00:00Z</updated>
-    <id>https://example.com/blog/2023-08-10--collier-explains-music/</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eRkgK4jfi6M&quot;&gt;Watch on YouTube&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
