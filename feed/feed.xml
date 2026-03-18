@@ -5,11 +5,32 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-03-17T00:00:00Z</updated>
+  <updated>2026-03-18T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Animals urinate in the same amount of time...</title>
+    <link href="https://example.com/blog/2026-03-18--animal-urination/" />
+    <updated>2026-03-18T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-03-18--animal-urination/</id>
+    <content type="html">&lt;p&gt;I learned that (almost) all mammals take the same amount of time to urinate from a book of facts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All mammals that weigh more than about six-and-a-half pounds take about the same time to urinate, thanks to the structure of the urethra. Karen Hopkin reports&lt;/p&gt;
+&lt;p&gt;— &lt;a href=&quot;https://www.scientificamerican.com/podcast/episode/21-second-rule-mammal-urination/&quot;&gt;Scientific American&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But today I learned that mammals also defecate in the same amount of time!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What else did we learn? Bigger animals have longer feces. And bigger animals also defecate at higher speed. For instance, an elephant defecates at a speed of six centimeters per second, nearly six times as fast as a dog. The speed of defecation for humans is in between: two centimeters per second.&lt;/p&gt;
+&lt;p&gt;Together, this meant that defecation duration is constant across many animal species – around 12 seconds (plus or minus 7 seconds) – even though the volume varies greatly. Assuming a bell curve distribution, 66 percent of animals take between 5 and 19 seconds to defecate. It&#39;s a surprisingly small range, given that elephant feces have a volume of 20 liters, nearly a thousand times more than a dog&#39;s, at 10 milliliters. How can big animals defecate at such high speed?&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;Putting the length of feces together with the properties of mucus, we now have a cohesive physics story for how defecation happens. Bigger animals have longer feces, but also thicker mucus, enabling them to achieve high speeds with the same pressure. Without this mucus layer, defecation might not be possible. Alterations in mucus can contribute to several ailments, including chronic constipation and even infections by bacteria such as C. difficile in the gastrointestinal tract.&lt;/p&gt;
+&lt;p&gt;Beyond simply following our scientific curiosity, our measurements of feces have also had some practical applications. Our defecation data helped us design an adult diaper for astronauts. Astronauts want to stay in space suits for seven days, but are limited by their diapers. Taking advantage of the viscosity of feces, we designed a diaper that segregates the feces away from direct contact with skin. It was a semifinalist in the NASA Space Poop Challenge earlier this year.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pbs.org/newshour/health/takes-elephant-amount-time-poop&quot;&gt;PBS&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   <entry>
     <title>Arctic Ground Squirrels</title>
     <link href="https://example.com/blog/2026-03-17--arctic-ground-squirrels/" />
@@ -123,17 +144,6 @@
 &lt;p&gt;&amp;quot;Each advancement addressed a real friction[…] Yet the fundamental challenge persists bc it’s not mechanical. It’s intellectual. Software development is thinking made tangible. The artifacts we create[…]are the visible outcome of invisible reasoning about complexity.&amp;quot;&lt;/p&gt;
 &lt;p&gt;—&lt;a href=&quot;https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html&quot;&gt;Stephan Schwab&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-  </entry>
-  <entry>
-    <title>One line of CSS for responsive colors</title>
-    <link href="https://example.com/blog/2025-06-15--responsive-colors/" />
-    <updated>2025-06-15T00:00:00Z</updated>
-    <id>https://example.com/blog/2025-06-15--responsive-colors/</id>
-    <content type="html">&lt;p&gt;The title is a little misleading, as it requires a couple pieces be in place, but, if you&#39;re using css custom properties (&amp;quot;variables&amp;quot;, colloquially), to set your background color, it only takes one line of css to change the foreground to either black or white.&lt;/p&gt;
-&lt;p&gt;More to come by way of an explanation and more strategies, but here&#39;s the code as I&#39;m using it now:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;color: hsl(from var(--c) 157 54 calc(18 + round(nearest,calc(100 - l),100)));
-&lt;/code&gt;&lt;/pre&gt;
 </content>
   </entry>
 </feed>
