@@ -5,11 +5,24 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-03-18T00:00:00Z</updated>
+  <updated>2026-04-09T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Wikipedia has a guide to spotting AI writing</title>
+    <link href="https://example.com/blog/2026-04-09--wikipedia-guide-to-spotting-ai-writing/" />
+    <updated>2026-04-09T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-04-09--wikipedia-guide-to-spotting-ai-writing/</id>
+    <content type="html">&lt;p&gt;The whole guide is pretty excellent, but I liked this assessment of the issues of AI content.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;LLMs (and artificial neural networks in general) use statistical algorithms to guess (infer) what should come next based on a large corpus of training material. It thus tends to regress to the mean; that is, the result tends toward the most statistically likely result that applies to the widest variety of cases. It can simultaneously be a strength and a &amp;quot;tell&amp;quot; for detecting AI-generated content.&lt;/p&gt;
+&lt;p&gt;For example, LLMs are usually trained on data from the internet in which famous people are generally described with positive, important-sounding language. Consequently, the LLM tends to omit specific, unusual, nuanced facts (which are statistically rare) and replace them with more generic, positive descriptions (which are statistically common). Thus the highly specific &amp;quot;inventor of the first train-coupling device&amp;quot; might become &amp;quot;a revolutionary titan of industry&amp;quot;. &lt;strong&gt;It is like shouting louder and louder that a portrait shows a uniquely important person, while the portrait itself is fading from a sharp photograph into a blurry, generic sketch. The subject becomes simultaneously less specific and more exaggerated.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;— &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   <entry>
     <title>Animals urinate in the same amount of time...</title>
     <link href="https://example.com/blog/2026-03-18--animal-urination/" />
@@ -132,17 +145,6 @@
 &lt;p&gt;So I said: Then how do you change this kind of thing? How could this kind of thing ever change?&lt;/p&gt;
 &lt;p&gt;And her words were: “Revolution, maybe.”&lt;/p&gt;
 &lt;p&gt;—&lt;a href=&quot;https://www.nytimes.com/2026/02/13/opinion/ezra-klein-podcast-anand-giridharadas.html&quot;&gt;Anand Giridharadas on the Ezra Klein Show&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Software development is thinking made tangible.</title>
-    <link href="https://example.com/blog/2026-01-26--development-friction/" />
-    <updated>2026-01-26T00:00:00Z</updated>
-    <id>https://example.com/blog/2026-01-26--development-friction/</id>
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;Each advancement addressed a real friction[…] Yet the fundamental challenge persists bc it’s not mechanical. It’s intellectual. Software development is thinking made tangible. The artifacts we create[…]are the visible outcome of invisible reasoning about complexity.&amp;quot;&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html&quot;&gt;Stephan Schwab&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
   </entry>
