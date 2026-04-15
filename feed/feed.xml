@@ -5,11 +5,22 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-04-09T00:00:00Z</updated>
+  <updated>2026-04-15T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Enough of war!</title>
+    <link href="https://example.com/blog/2026-04-15--enough-of-war/" />
+    <updated>2026-04-15T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-04-15--enough-of-war/</id>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Enough of the idolatry of self and money! Enough of the display of power! Enough of war! True strength is shown in serving life. With evangelical simplicity, Saint John XXIII once wrote: “The benefits of peace will be felt everywhere, by individuals, by families, by nations, by the whole human race.” And echoing the incisive words of Pius XII, he added: “Nothing is lost by peace; everything may be lost by war” (Encyclical Letter Pacem in Terris, 116).&lt;/p&gt;
+&lt;p&gt;— &lt;a href=&quot;https://www.americamagazine.org/vatican-dispatch/2026/04/11/enough-of-war-full-text-of-pope-leos-prayer-for-peace/&quot;&gt;Pope Leo&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   <entry>
     <title>Wikipedia has a guide to spotting AI writing</title>
     <link href="https://example.com/blog/2026-04-09--wikipedia-guide-to-spotting-ai-writing/" />
@@ -133,19 +144,6 @@
 &lt;p&gt;—&lt;a href=&quot;https://rachelandrew.co.uk/archives/2026/02/18/generative-ai-has-broken-the-subject-matter-expert-editor-relationship/&quot;&gt;Rachel Andrew&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Whether productivity gains have broadened who we ask to be experts or experts are missing the polishing effect of an AI &amp;quot;edit&amp;quot;, the human editors have to do much more to ensure good content is good and true.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Revolution, maybe</title>
-    <link href="https://example.com/blog/2026-02-24--revolution-maybe/" />
-    <updated>2026-02-24T00:00:00Z</updated>
-    <id>https://example.com/blog/2026-02-24--revolution-maybe/</id>
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;But it’s very striking that at the end of that section I had with her [Laurie Tisch], she said: At the end of the day, it’s hard to convince someone like me to give up power.&lt;/p&gt;
-&lt;p&gt;So I said: Then how do you change this kind of thing? How could this kind of thing ever change?&lt;/p&gt;
-&lt;p&gt;And her words were: “Revolution, maybe.”&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://www.nytimes.com/2026/02/13/opinion/ezra-klein-podcast-anand-giridharadas.html&quot;&gt;Anand Giridharadas on the Ezra Klein Show&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
