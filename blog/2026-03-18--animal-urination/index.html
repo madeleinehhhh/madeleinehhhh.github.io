@@ -10,9 +10,19 @@
 		
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('woff2');
+  font-weight: <weight>;
+  font-optical-sizing: auto;
+}
+
 /* Defaults */
 :root {
-	--font-family: helvetica, sans-serif;
+	--font-body: 'Inter', sans-serif;
+    --font-heading: 'Space Grotesk', serif;
+
+	--font-family: var(--font-body);
 	--font-family-monospace: monospace;
 }
 
@@ -141,7 +151,9 @@ body {
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
-
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+}
 body > header,
 body > main,
 body > footer {
@@ -412,7 +424,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/2026-03-18--animal-urination/` was built on 2026-04-15T14:22:07.693Z -->
+		<!-- This page `/blog/2026-03-18--animal-urination/` was built on 2026-04-30T21:04:53.855Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
