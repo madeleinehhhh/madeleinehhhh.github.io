@@ -1,37 +1,5 @@
-@font-face {
-  font-family: 'Space Grotesk';
-  src: url('/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('woff2');
-  font-weight: <weight>;
-  font-optical-sizing: auto;
-}
-
-/* Defaults */
-:root {
-	--font-body: 'Inter', sans-serif;
-    --font-heading: 'Space Grotesk', serif;
-
-	--font-family: var(--font-body);
-	--font-family-monospace: monospace;
-}
-
 /* Theme colors */
 :root {
-	--clr-gold: oklch(78.266% 0.14194 89.569);
-	--clr-darkteal: #182024;
-	--clr-teal: #4E8B8C;
-  --clr-greenbright: #618616;
-	--clr-greenlighter: #8EA75D;
-	--clr-palefoam: oklch(93.911% 0.02612 147.337);
-	--clr-mediumblue: #0D6FBA;
-	--clr-brightblue: #0099FF;
-	--clr-lightblue: #77B0CE;
-	--clr-greige: #C4C4C4;
-	--clr-maroonish: #9E3F4E;
-	--clr-paledpeach: #FFC9B9;
-	--clr-brightorange: #FF6924;
-	--clr-salmon: #D7765B;
-	--clr-beige: #DCB39E;
-
   --clr-secondary: var(--clr-greenbright);
   --clr-accent: #bd4500;
 
@@ -42,9 +10,9 @@
 	--background-color: var(--color-gray-20);
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: var(--clr-greenbright);
-		--text-color-link-active: oklch(from var(--text-color-link) calc(l * 1.1) c h);;
-		--text-color-link-visited: oklch(from var(--text-color-link) calc(l * 0.8) c h);
+	--link-color: var(--clr-greenbright);
+	--link-color-active: oklch(from var(--link-color) calc(l * 1.1) c h);;
+	--link-color-visited: oklch(from var(--link-color) calc(l * 0.8) c h);
 
 	--syntax-tab-size: 2;
 }
@@ -56,28 +24,12 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: var(--clr-greenlighter);
+		--link-color: var(--clr-greenlighter);
 
 		--background-color: #14181d;
 	}
 }
 
-/* View Transitions */
-@view-transition {
-	navigation: auto;
-}
-
-/* Visually Hidden */
-/* https://www.a11yproject.com/posts/how-to-hide-content/ */
-.visually-hidden:not(:focus):not(:active) {
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
 img{
@@ -98,18 +50,6 @@ iframe {
 }
 iframe {
 	aspect-ratio: 16/9;
-}
-
-/* links */
-a[href] {
-	color: var(--text-color-link);
-}
-a[href]:visited {
-	color: var(--text-color-link-visited);
-}
-a[href]:hover,
-a[href]:active {
-	color: var(--text-color-link-active);
 }
 
 /* skip link */
@@ -135,7 +75,7 @@ a[href]:active {
 /* specific styles */
 
 body {
-	font-family: var(--font-family);
+	font-family: var(--font-body);
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
