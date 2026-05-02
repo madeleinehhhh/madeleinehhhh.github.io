@@ -14,132 +14,6 @@
 		
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
-/* Theme colors */
-:root {
-  --clr-secondary: var(--clr-greenbright);
-  --clr-accent: #bd4500;
-
-	--color-gray-20: var(var(--clr-palefoam));
-	--color-gray-50: oklch(88.107% 0.00687 146.197);
-	--color-gray-90: oklch(26.554% 0.05122 73.939);
-
-	--background-color: var(--color-gray-20);
-
-	--text-color: var(--color-gray-90);
-	--link-color: var(--clr-greenbright);
-	--link-color-active: oklch(from var(--link-color) calc(l * 1.1) c h);;
-	--link-color-visited: oklch(from var(--link-color) calc(l * 0.8) c h);
-
-	--syntax-tab-size: 2;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
-
-		/* --text-color is assigned to --color-gray-_ above */
-		--link-color: var(--clr-greenlighter);
-
-		--background-color: #14181d;
-	}
-}
-
-
-/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
-img{
-  max-width: 100%;
-}
-img[width][height] {
-  height: auto;
-}
-img[src$=".svg"] {
-  width: 100%;
-  height: auto;
-  max-width: none;
-}
-video,
-iframe {
-	width: 100%;
-	height: auto;
-}
-iframe {
-	aspect-ratio: 16/9;
-}
-
-/* skip link */
-#skip-link {
-	text-decoration: none;
-	background: var(--background-color);
-	color: var(--text-color);
-	padding: 0.5rem 1rem;
-	border: 1px solid var(--color-gray-90);
-	border-radius: 2px;
-}
-
-/* Prevent visually-hidden skip link fom pushing content around when focused */
-#skip-link.visually-hidden:focus {
-	position: absolute;
-	top: 1rem;
-	left: 1rem;
-	/* Ensure it is positioned on top of everything else when it is shown */
-	z-index: 999;
-}
-
-
-/* specific styles */
-
-body {
-	font-family: var(--font-body);
-	color: var(--text-color);
-	background-color: var(--background-color);
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: var(--font-heading);
-}
-body > header,
-body > main,
-body > footer {
-	max-width: 40rem;
-	margin-inline: auto;
-}
-
-body > header {
-	/* outline: 3px dotted yellow; */
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	.nav {
-		list-style: none;
-		display: flex;
-		gap: 1em;
-	}
-}
-
-/* .tag-quote h2.postlist-title {
-	font-size: 1em;
-}
-
-.postlist-date {
-	font-size: 0.9em;
-} */
-
-h2.postlist-title a {
-	text-decoration: none;
-}
-
-
-.post-metadata,
-.links-nextprev {
-	list-style: none;
-	font-size:0.9em;
-}
-.links-nextprev {
-	display: flex;
-	justify-content: space-between;
-}
 @font-face {
   font-family: 'Space Grotesk';
   src: url('/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
@@ -316,6 +190,132 @@ iframe {
   max-width: 100%;
   aspect-ratio: 560/315;
   height: auto;
+}
+/* Theme colors */
+:root {
+  --clr-secondary: var(--clr-greenbright);
+  --clr-accent: #bd4500;
+
+	--color-gray-20: var(var(--clr-palefoam));
+	--color-gray-50: oklch(88.107% 0.00687 146.197);
+	--color-gray-90: oklch(26.554% 0.05122 73.939);
+
+	--background-color: var(--color-gray-20);
+
+	--text-color: var(--color-gray-90);
+	--link-color: var(--clr-greenbright);
+	--link-color-active: oklch(from var(--link-color) calc(l * 1.1) c h);;
+	--link-color-visited: oklch(from var(--link-color) calc(l * 0.8) c h);
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--link-color: var(--clr-greenlighter);
+
+		--background-color: #14181d;
+	}
+}
+
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+/* skip link */
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+
+/* specific styles */
+
+body {
+	font-family: var(--font-body);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+}
+body > header,
+body > main,
+body > footer {
+	max-width: 40rem;
+	margin-inline: auto;
+}
+
+body > header {
+	/* outline: 3px dotted yellow; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.nav {
+		list-style: none;
+		display: flex;
+		gap: 1em;
+	}
+}
+
+/* .tag-quote h2.postlist-title {
+	font-size: 1em;
+}
+
+.postlist-date {
+	font-size: 0.9em;
+} */
+
+h2.postlist-title a {
+	text-decoration: none;
+}
+
+
+.post-metadata,
+.links-nextprev {
+	list-style: none;
+	font-size:0.9em;
+}
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
 }
 /**
  * okaidia theme for JavaScript, CSS and HTML
@@ -545,7 +545,7 @@ pre[class*="language-diff-"] {
 				</p>
 			</footer>
 		</div>
-		<!-- This page `/blog/2026-04-09--wikipedia-guide-to-spotting-ai-writing/` was built on 2026-05-02T19:54:32.207Z -->
+		<!-- This page `/blog/2026-04-09--wikipedia-guide-to-spotting-ai-writing/` was built on 2026-05-02T19:57:24.401Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
