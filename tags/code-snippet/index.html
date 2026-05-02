@@ -222,39 +222,6 @@ iframe {
   aspect-ratio: 560/315;
   height: auto;
 }
-/* Theme colors */
-:root {
-  --clr-secondary: var(--clr-greenbright);
-  --clr-accent: #bd4500;
-
-	--color-gray-20: var(var(--clr-palefoam));
-	--color-gray-50: oklch(88.107% 0.00687 146.197);
-	--color-gray-90: oklch(26.554% 0.05122 73.939);
-
-	--background-color: var(--color-gray-20);
-
-	--text-color: var(--color-gray-90);
-	--link-color: var(--clr-greenbright);
-	--link-color-active: oklch(from var(--link-color) calc(l * 1.1) c h);;
-	--link-color-visited: oklch(from var(--link-color) calc(l * 0.8) c h);
-
-	--syntax-tab-size: 2;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
-
-		/* --text-color is assigned to --color-gray-_ above */
-		--link-color: var(--clr-greenlighter);
-
-		--background-color: #14181d;
-	}
-}
-
-
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
 img{
   max-width: 100%;
@@ -300,8 +267,6 @@ iframe {
 
 body {
 	font-family: var(--font-body);
-	color: var(--text-color);
-	background-color: var(--background-color);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-heading);
@@ -418,7 +383,7 @@ h2.postlist-title a {
 				</p>
 			</footer>
 		</div>
-		<!-- This page `/tags/code-snippet/` was built on 2026-05-02T20:03:09.881Z -->
+		<!-- This page `/tags/code-snippet/` was built on 2026-05-02T20:03:55.342Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
