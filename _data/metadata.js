@@ -1,10 +1,10 @@
 export default {
-	title: "Madeleine.Cool",
-	url: "https://madeleinehhhh.github.io",
+	title: "madeleine.cool",
+	url: "https://madeleine.cool",
 	language: "en",
 	description: "re-joining the indieweb",
 	author: {
-		name: "Madeleine",
+		name: "madeleine",
 		email: "madeleine.herritage@gmail.com",
 		url: "https://madeleine.dev"
 	}
