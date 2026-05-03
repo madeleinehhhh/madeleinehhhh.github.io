@@ -52,12 +52,13 @@
 			<div class="blob-06"></div>
 
 			<header>
-				<a href="/" class="home-link">{{ metadata.title }}</a>
+				<p class="site-title"><a href="/" class="home-link">{{ metadata.title }}</a></p>
 
 				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-				<nav>
+				<nav id="mainNav">
 					<h2 class="visually-hidden">Top level navigation menu</h2>
 					<ul class="nav">
+						<li class="nav-item"><a href="https://madeleine.dev">About</a></li>
 					{%- for entry in collections.all | eleventyNavigation %}
 						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 					{%- endfor %}
