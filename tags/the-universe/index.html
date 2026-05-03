@@ -484,82 +484,7 @@ body {
     --rotationAngle: 20deg;
   }
 }
-/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
-img{
-  max-width: 100%;
-}
-img[width][height] {
-  height: auto;
-}
-img[src$=".svg"] {
-  width: 100%;
-  height: auto;
-  max-width: none;
-}
-video,
-iframe {
-	width: 100%;
-	height: auto;
-}
-iframe {
-	aspect-ratio: 16/9;
-}
-
-/* skip link */
-#skip-link {
-	text-decoration: none;
-	background: var(--background-color);
-	color: var(--text-color);
-	padding: 0.5rem 1rem;
-	border: 1px solid var(--color-gray-90);
-	border-radius: 2px;
-}
-
-/* Prevent visually-hidden skip link fom pushing content around when focused */
-#skip-link.visually-hidden:focus {
-	position: absolute;
-	top: 1rem;
-	left: 1rem;
-	/* Ensure it is positioned on top of everything else when it is shown */
-	z-index: 999;
-}
-
-
 /* specific styles */
-
-body {
-	font-family: var(--font-body);
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: var(--font-heading);
-}
-.container > header,
-.container > main,
-.container > footer {
-	max-width: 40rem;
-	margin-inline: auto;
-}
-
-.container > header {
-	/* outline: 3px dotted yellow; */
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	.nav {
-		list-style: none;
-		display: flex;
-		gap: 1em;
-	}
-}
-
-/* .tag-quote h2.postlist-title {
-	font-size: 1em;
-}
-
-.postlist-date {
-	font-size: 0.9em;
-} */
 
 h2.postlist-title a {
 	text-decoration: none;
@@ -589,10 +514,11 @@ h2.postlist-title a {
 			<div class="blob-06"></div>
 
 			<header>
-				<a href="/" class="home-link">Madeleine.Cool</a>
-				<nav>
+				<p class="site-title"><a href="/" class="home-link">Madeleine.Cool</a></p>
+				<nav id="mainNav">
 					<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 					<ul class="nav">
+						<li class="nav-item"><a href="https://madeleine.dev">About</a></li>
 						<li class="nav-item"><a href="/">Home</a></li>
 						<li class="nav-item"><a href="/blog/">Archive</a></li>
 						<li class="nav-item"><a href="/about/">About</a></li>
@@ -652,7 +578,7 @@ It can change the way we look at the planet but also other things like countries
 				</p>
 			</footer>
 		</div>
-		<!-- This page `/tags/the-universe/` was built on 2026-05-03T03:11:22.560Z -->
+		<!-- This page `/tags/the-universe/` was built on 2026-05-03T03:11:52.079Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
