@@ -4,7 +4,7 @@
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
 	"type": "module",
 	"scripts": {
-		"prebuild": "cp node_modules/@madeleinehhhh/madeleines-shared-css/*.css css/",
+		"prebuild": "cp -r node_modules/@madeleinehhhh/madeleines-shared-css/tokens css/tokens && cp -r node_modules/@madeleinehhhh/madeleines-shared-css/base css/base && cp node_modules/@madeleinehhhh/madeleines-shared-css/shared.css css/shared.css",
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",

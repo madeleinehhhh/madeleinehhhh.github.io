@@ -4,6 +4,3 @@ node_modules/
 .github/workflows/gh-pages.yml.sample
 
 .DS_Store
-
-# css/shared.css
-# css/animations.css
