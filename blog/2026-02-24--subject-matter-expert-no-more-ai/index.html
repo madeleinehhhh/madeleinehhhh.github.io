@@ -8,66 +8,10 @@
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="madeleine.cool">
 
 		<meta name="generator" content="Eleventy v3.1.5">
-		
-		
-		
-		
-		<style>/* This is an arbitrary CSS string added to the bundle */
-/* =============================================================================
-   madeleines-shared-css
-   shared.css — barrel file
-   Imports all tokens and base layers in the correct order.
-   Usage:
-     <link rel="stylesheet" href="/node_modules/@madeleinehhhh/madeleines-shared-css/shared.css">
-     <link rel="stylesheet" href="/css/site.css">
-   Note: base/animation.css is NOT included here — load it separately
-   on pages that use blobs, after this file and before site.css.
-   ============================================================================= */
 
-/* — Tokens ------------------------------------------------------------------ */
-@import "./tokens/color.css";
-@import "./tokens/type.css";
-@import "./tokens/space.css";
-@import "./tokens/motion.css";
-
-/* — Base -------------------------------------------------------------------- */
-@import "./base/fonts.css";
-@import "./base/reset.css";
-@import "./base/type.css";
-@import "./base/layout.css";
-@import "./base/animation.css";
-/* =============================================================================
-   SITE STYLES — madeleine.cool
-   css/site.css
-   Blog-specific styles. Load after the shared package.
-   Load order:
-     node_modules/@madeleinehhhh/madeleines-shared-css/shared.css
-     css/site.css  ← this file
-   ============================================================================= */
-
-/* =============================================================================
-   BLOG — POST LIST
-   Post list template styles.
-   ============================================================================= */
-
-/* Post list title links — no underline, title stands on its own */
-h2.postlist-title a {
-  text-decoration: none;
-}
-
-/* Post metadata and prev/next nav — smaller, no bullets */
-.post-metadata,
-.links-nextprev {
-  list-style: none;
-  font-size:  0.9em;
-}
-
-/* Prev/next — spread to opposite ends */
-.links-nextprev {
-  display:         flex;
-  justify-content: space-between;
-}
-/**
+		<link rel="stylesheet" href="/css/shared.css">
+		<link rel="stylesheet" href="/css/site.css">
+		<style>/**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
@@ -295,7 +239,7 @@ pre[class*="language-diff-"] {
 				</p>
 			</footer>
 		</div>
-		<!-- This page `/blog/2026-02-24--subject-matter-expert-no-more-ai/` was built on 2026-05-07T16:22:06.123Z -->
+		<!-- This page `/blog/2026-02-24--subject-matter-expert-no-more-ai/` was built on 2026-05-07T19:29:30.525Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

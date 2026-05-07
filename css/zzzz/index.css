@@ -1,0 +1,16 @@
+/* specific styles */
+
+h2.postlist-title a {
+	text-decoration: none;
+}
+
+
+.post-metadata,
+.links-nextprev {
+	list-style: none;
+	font-size:0.9em;
+}
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+}
