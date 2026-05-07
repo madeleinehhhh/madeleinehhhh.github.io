@@ -12,7 +12,6 @@
 		
 		
 		
-		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* =============================================================================
    madeleines-shared-css
@@ -37,21 +36,36 @@
 @import "./base/type.css";
 @import "./base/layout.css";
 @import "./base/animation.css";
-/* specific styles */
+/* =============================================================================
+   SITE STYLES — madeleine.cool
+   css/site.css
+   Blog-specific styles. Load after the shared package.
+   Load order:
+     node_modules/@madeleinehhhh/madeleines-shared-css/shared.css
+     css/site.css  ← this file
+   ============================================================================= */
 
+/* =============================================================================
+   BLOG — POST LIST
+   Post list template styles.
+   ============================================================================= */
+
+/* Post list title links — no underline, title stands on its own */
 h2.postlist-title a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
-
+/* Post metadata and prev/next nav — smaller, no bullets */
 .post-metadata,
 .links-nextprev {
-	list-style: none;
-	font-size:0.9em;
+  list-style: none;
+  font-size:  0.9em;
 }
+
+/* Prev/next — spread to opposite ends */
 .links-nextprev {
-	display: flex;
-	justify-content: space-between;
+  display:         flex;
+  justify-content: space-between;
 }</style>
 		
 	</head>
@@ -154,7 +168,7 @@ h2.postlist-title a {
 				</p>
 			</footer>
 		</div>
-		<!-- This page `/tags/etymology/` was built on 2026-05-07T15:09:56.449Z -->
+		<!-- This page `/tags/etymology/` was built on 2026-05-07T16:09:35.494Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
