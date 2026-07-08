@@ -110,11 +110,16 @@ ol a {
    JUMP TO LINKS
    ============================================================================= */
 
-/* .ha,
-.ha[href]:not(.ha) {
+.ha {
+  color: transparent;
+  text-decoration: none;
+  border: none;
   padding: 0;
-  position: absolute;
-} */
+}
+
+.ha:is(:hover, :focus) {
+  color: var(--color-interactive);
+}
 
 /* =============================================================================
    FLOW UTILITY
