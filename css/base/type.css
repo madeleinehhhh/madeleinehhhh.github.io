@@ -84,18 +84,18 @@ a[href]:not(.ha) {
     text-decoration-color var(--duration-ui) var(--ease-default);
 }
 
-a[href]:visited {
+a[href]:not(.ha):visited {
   color: var(--link-visited);
   border-color: var(--link-focus-ring);
 }
 
-a[href]:active {
+a[href]:not(.ha):active {
   color: var(--link-active);
 }
 
-a[href]:hover,
-a[href]:visited:hover,
-a[href]:focus {
+a[href]:not(.ha):hover,
+a[href]:not(.ha):visited:hover,
+a[href]:not(.ha):focus {
   color: var(--link-hover);
 }
 
@@ -111,7 +111,7 @@ ol a {
    ============================================================================= */
 
 /* .ha,
-.ha[href] {
+.ha[href]:not(.ha) {
   padding: 0;
   position: absolute;
 } */
