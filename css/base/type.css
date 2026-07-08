@@ -110,7 +110,7 @@ ol a {
    JUMP TO LINKS
    ============================================================================= */
 
-.ha {
+/* .ha {
   color: transparent;
   text-decoration: none;
   border: none;
@@ -119,7 +119,7 @@ ol a {
 
 .ha:is(:hover, :focus) {
   color: var(--color-interactive);
-}
+} */
 
 /* =============================================================================
    FLOW UTILITY
